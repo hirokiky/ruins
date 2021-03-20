@@ -8,7 +8,7 @@ README = open(os.path.join(here, 'README.md')).read()
 setup(
     name="ruins",
     version="0.0.1",
-    install_requires=["jinja2==2.11.1", "libsass==0.19.4",],
+    install_requires=["jinja2==2.11.3", "libsass==0.19.4",],
     packages=find_packages(),
     license="MIT",
     author="Hiroki Kiyohara",
